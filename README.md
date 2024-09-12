@@ -1,6 +1,6 @@
 # CSkinStore - Aplicação Full Stack
 
-Este projeto é uma aplicação Full Stack para listar e filtrar skins de CS:GO. O front-end foi desenvolvido com **Next.js** e **Chakra UI**, enquanto o back-end foi construído com **Nest.js**, **Prisma** e **MongoDB**. A aplicação permite que os usuários filtrem skins por nome, categoria, preço e outros atributos, proporcionando uma experiência de usuário eficiente e responsiva.
+Este projeto é uma aplicação Full Stack para listar e filtrar skins de CS2. O front-end foi desenvolvido com **Next.js** e **Chakra UI**, enquanto o back-end foi construído com **Nest.js**, **Prisma** e **MongoDB**. A aplicação permite que os usuários filtrem skins por nome, categoria, preço e outros atributos, proporcionando uma experiência de usuário eficiente e responsiva.
 
 ## Índice
 
