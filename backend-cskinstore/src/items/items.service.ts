@@ -4,9 +4,9 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { Item } from '@prisma/client';
-import { ItemFilters } from 'src/interfaces/item-filters.interface';
-import { ItemOrder } from 'src/interfaces/item-order.interface';
 import { PrismaService } from '../prisma/prisma.service';
+import { ItemFilters } from './interfaces/item-filters.interface';
+import { ItemOrder } from './interfaces/item-order.interface';
 
 @Injectable()
 export class ItemsService {
@@ -36,7 +36,9 @@ export class ItemsService {
     try {
       const items = await this.prisma.prismaClient.item.findMany({
         where: {
-          name: name ? { contains: name } : undefined,
+          name: name
+            ? { contains: name.toLowerCase(), mode: 'insensitive' }
+            : undefined,
           float: {
             gte:
               floatMinNumber !== undefined

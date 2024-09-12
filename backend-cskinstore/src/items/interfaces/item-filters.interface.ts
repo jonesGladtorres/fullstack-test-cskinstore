@@ -5,4 +5,6 @@ export interface ItemFilters {
   priceMin?: string;
   priceMax?: string;
   category?: string;
+  page?: number;
+  limit?: number;
 }
