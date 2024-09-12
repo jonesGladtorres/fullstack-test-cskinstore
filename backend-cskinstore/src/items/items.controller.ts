@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ItemsService } from './items.service';
-import { FindAllQueryParams } from 'src/interfaces/find-all-query-params.interface';
+import { FindAllQueryParams } from './interfaces/find-all-query-params.interface';
 
 @Controller('items')
 export class ItemsController {
