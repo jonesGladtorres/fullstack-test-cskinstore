@@ -16,7 +16,6 @@ Este projeto é uma aplicação Full Stack para listar e filtrar skins de CS:GO.
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [População do Banco de Dados](#população-do-banco-de-dados)
 - [Testes](#testes)
-- [Melhorias Futuras](#melhorias-futuras)
 
 ---
 
